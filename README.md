@@ -1,11 +1,5 @@
 <h1 align="center">Evaluation-as-Service</h1>
 
-
-Bridging Capsule Networks and Mature NLP Applications
-
-Submission in ACL-19
-
-
 <p align="center"> MoverScore: Text Generation Evaluating with Contextualized Embeddings and Earth Mover Distance. </p>
 
 
