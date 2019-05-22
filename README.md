@@ -15,7 +15,7 @@ Install the server and client via `pip`. They can be installed separately or eve
 cd server/
 python setup.py install # server
 cd client/
-python setup.py install # client, independent of `summ-eval-server`
+python setup.py install # client
 ```
 
 Note that the server MUST be running on **Python >= 3.5**. Again, the server does not support Python 2!
