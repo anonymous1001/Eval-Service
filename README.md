@@ -1,30 +1,14 @@
-<h1 align="center">Evaluation-as-Service</h1>
+<h1 align="left">Evaluation-as-Service</h1>
 
-<p align="center"> MoverScore: Text Generation Evaluating with Contextualized Embeddings and Earth Mover Distance. </p>
+<p align="left"> EMNLP19 Submission: "MoverScore: Text Generation Evaluating with Contextualized Embeddings and Earth Mover Distance" </p>
 
+<h2 align="left">What is MoverScore and EvalSerivce</h2>
 
-<p align="center">
-  <a href="#highlights">Highlights</a> •
-  <a href="#what-is-it">What is it</a> •
-  <a href="#install">Install</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#server-and-client-api">API</a> •
-  <a href="#book-tutorial">Tutorials</a> •
-  <a href="#speech_balloon-faq">FAQ</a> •
-</p>
+**MoverScore** measures semantic distance between system and reference texts by aligning semantically similar words and finding the corresponding travel costs.
 
-<p align="center">
-    <img src=".github/demo.gif?raw=true" width="700">
-</p>
+**EvalSerivce** is a evaluation framework for NLG tasks, assigning scores (e.g., ROUGE ans MoverScore) to system-generated text by comparing it against human references for content matching.
 
-
-<h2 align="center">What is it</h2>
-
-**SummEval** is a summarization evaluation framework which evaluates summarization scores based on different sentence representations and evaluation methodologies.
-
-**Finally, `summ-eval-as-service`** uses various summarization metrics and hosts it as a service via ZeroMQ, allowing you to get summary generation scores in just two lines of code. 
-
-<h2 align="center">Install</h2>
+<h2 align="left">Installation</h2>
 
 Install the server and client via `pip`. They can be installed separately or even on *different* machines:
 ```bash
