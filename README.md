@@ -24,17 +24,14 @@ The client can be running on both Python 2 and 3 [for the following consideratio
 
 <h2 align="left">Getting Started</h2>
 
-#### 1. Download the data and Word-embeddings 
-Download a model listed below, then uncompress the zip file into some folder
-
-#### 2. Start the evaluation service
+#### 1. Start the evaluation service
 After installing the server, you should start a serivce as follows:
 ```bash
 eval-service -eval_dir ../../ -num_worker=4
 ```
 This will start the service with four workers, meaning that it can handle up to four **concurrent** requests.
 
-#### 3. Use Client to Get Evaluation scores
+#### 2. Use Client to Get Evaluation scores
 Now you can get scores:
 ```python
 from nlg_eval.client import EvalClient
