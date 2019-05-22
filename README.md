@@ -1,6 +1,12 @@
-<h1 align="center">summ-eval-as-service</h1>
+<h1 align="center">Evaluation-as-Service</h1>
 
-<p align="center">Using Summary Evaluation as a evaluation service, i.e. getting the correlation scores between the generated summary and the reference summary.</p>
+
+Bridging Capsule Networks and Mature NLP Applications
+
+Submission in ACL-19
+
+
+<p align="center"> MoverScore: Text Generation Evaluating with Contextualized Embeddings and Earth Mover Distance. </p>
 
 
 <p align="center">
