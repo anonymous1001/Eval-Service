@@ -36,11 +36,6 @@ Now you can get scores:
 ```python
 from summ_eval.client import EvalClient
 ec = EvalClient()
-ec.eval([[['This is test summary'], [['This is ref summary one'],['This is ref summary two']], 'rouge_n'], 
-        [['This is test summary two'], [['This is ref summary two'],['This is ref summary two']], 'rouge_n']])
-        
-from summ_eval.client import EvalClient
-ec = EvalClient()
 
 system = ['A guy with a read jacket is standing on a boat']
 references = ['A man wearing a lifevest is sitting in a canoe','A small white ferry rides through water']
