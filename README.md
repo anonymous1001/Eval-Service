@@ -13,9 +13,9 @@
 Install the server and client via `pip`. They can be installed separately or even on *different* machines:
 ```bash
 cd server/
-python setup.py install # server
+python3 setup.py install # server
 cd client/
-python setup.py install # client
+python3 setup.py install # client
 ```
 
 Note that the server MUST be running on **Python >= 3.5**. Again, the server does not support Python 2!
@@ -27,7 +27,7 @@ The client can be running on both Python 2 and 3 [for the following consideratio
 #### 1. Start the evaluation service
 After installing the server, you should start a serivce as follows:
 ```bash
-eval-service -eval_dir ../../ -num_worker=4
+summ-eval-start -data_dir ../../ -num_worker=4
 ```
 This will start the service with four workers, meaning that it can handle up to four **concurrent** requests.
 
